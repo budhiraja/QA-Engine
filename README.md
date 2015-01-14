@@ -1,6 +1,6 @@
-************************************************Artificial Intelligence*******************************************************************
+***************************Artificial Intelligence********************
 
-******************************************************Part-1******************************************************************************
+**********************************Part-1******************************
 
 The focus is to build a question-answering system.Few questions (queries) will be given. But
 apart from these, there will be questions for each part that will have to be answered during
@@ -9,7 +9,7 @@ possible.
 
 
 
-====================================================Dataset=================================================================================
+=================================Dataset================================
 For this phase, the commentary data of all the five ODI matches (for both innings) has to be
 included.
 The links to the 5 matches are:
@@ -18,10 +18,10 @@ The links to the 5 matches are:
 3. http://www.espncricinfo.com/new-zealand-v-india-2014/engine/match/667645.html
 4. http://www.espncricinfo.com/new-zealand-v-india-2014/engine/match/667647.html
 5. http://www.espncricinfo.com/new-zealand-v-india-2014/engine/match/667649.html
-_____________________________________________________________________________________________________________________________________________
+________________________________________________________________________
 
 
-================================================Text processing==============================================================================
+===================Text processing========================================
 This part deals with questions to be answered that will require string parsing and text
 processing of the commentary data.
 The commentary information consists of :
@@ -42,11 +42,11 @@ Rough grammar of questions for part 1:
 be specified, see Q5)
 <question> : which ball | which over | who dismissed (although this question can be
 answered even using scorecard info) | who hit | which bowler
-_____________________________________________________________________________________________________________________________________________
+___________________________________________________________________________
 
 
 
-=================================================Questions===================================================================================
+=================================Questions==========================
 1. In the first match, Kohli hit sixes in overs of which bowler(s)?
 (here number of sixes and specific over is not specified, so you should retrieve all the instances)
 2. In the first match, Williamson was out in which over?
@@ -63,6 +63,6 @@ have to call them for these examples, and for other questions which will be rele
 time of evaluation.
 
 
-**************************************************PART-2 **************************************************************************************
+***************************PART-2 ************************************
 
 Build the same engine without a question grammar.
